@@ -19,6 +19,7 @@ export default defineConfig({
     },
   },
   server: {
+    allowedHosts: 'devserver-main--zippy-biscotti-78b119.netlify.app',
     proxy: {
       '/api': {
         target: 'http://localhost:8000',
