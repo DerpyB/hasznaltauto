@@ -1,4 +1,4 @@
-const API_URL = 'https://hasznaltauto.alwaysdata.net/api';
+const API_URL = 'https://localhost:8000/api';
 
 class ApiService {
   async getCars() {
